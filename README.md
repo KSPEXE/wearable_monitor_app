@@ -1,4 +1,4 @@
-# Wearable Monitor App - Salud & Domótica 🚀
+# Wearable Monitor App - Salud & Domótica 
 
 Este proyecto consiste en una aplicación móvil multiplataforma desarrollada en **Flutter** para el monitoreo de signos vitales y control domótico mediante comunicación Bluetooth con microcontroladores ESP32.
 
