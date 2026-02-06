@@ -1,0 +1,31 @@
+name: wearable_monitor_app
+description: "Monitor de signos vitales para pulsera inteligente."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Librerías críticas para el ESP32 y gráficas
+  flutter_bluetooth_serial: ^0.4.0
+  fl_chart: ^0.69.0
+  cupertino_icons: ^1.0.8
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.5.4
+  url_launcher: ^6.3.2
+  path_provider: ^2.1.5
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Versión estándar para el SDK 3.10
+
+flutter:
+  uses-material-design: true
+  # Si vas a usar iconos personalizados, agrégalos aquí:
+  # assets:
+  #   - assets/icon/icon.png
